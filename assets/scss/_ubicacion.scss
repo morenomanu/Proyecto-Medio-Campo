@@ -1,0 +1,24 @@
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    iframe{
+        margin: 70px 0px;
+    }
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    h2{
+        margin: 15px;
+    }
+    .red{
+        display: flex;
+        margin: 10px;
+        img{
+            width: 35px;
+            margin: 0px 10px;
+        }
+    }
+}

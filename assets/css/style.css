@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.navegador {
+  font-size: 18px;
+  height: 100px;
+}
+.navegador ul li {
+  padding: 0px 20px;
+}
+.navegador ul li a img {
+  width: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.banner h1 {
+  font-size: 100px;
+}
+.banner img {
+  width: 120px;
+  padding: 0px 15px;
+}
+
+.titulo {
+  background-image: url(../img/banner.jpg);
+  height: 250px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.titulo h1 {
+  font-size: 100px;
+  padding: 0px 30px;
+}
+
+.tarjetas {
+  display: flex;
+}
+
+.tarjetaReserva {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/cancha2copia.jpg);
+  width: 800px;
+  height: 600px;
+  color: white;
+}
+.tarjetaReserva h3 {
+  font-size: 3rem;
+  padding: 30px;
+}
+.tarjetaReserva p {
+  font-size: 20px;
+  padding: 0px 90px;
+}
+.tarjetaReserva .btn {
+  background-color: white;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 1px;
+}
+
+.tarjetaCancha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/trofeocopia.jpg);
+  width: 600px;
+  height: 600px;
+  color: black;
+}
+.tarjetaCancha h3 {
+  font-size: 2rem;
+}
+.tarjetaCancha p {
+  font-size: 20px;
+  padding: 5px 60px;
+}
+.tarjetaCancha .btn {
+  background-color: black;
+  color: white;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 1px;
+}
+
+.reservar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+}
+.reservar img {
+  width: 100px;
+}
+.reservar .textoReservar {
+  width: 600px;
+}
+.reservar .textoReservar h3 {
+  color: rgb(18, 140, 126);
+  font-size: 40px;
+}
+.reservar .textoReservar p {
+  font-size: 23px;
+  padding-right: 30px;
+}
+.reservar .btn {
+  background-color: rgb(18, 140, 126);
+  color: white;
+  border-radius: 1px;
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.cumpleaños {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/cumpleaños6copia.jpg);
+  height: 600px;
+  text-align: center;
+}
+.cumpleaños h3 {
+  font-size: 50px;
+  color: white;
+}
+.cumpleaños p {
+  font-size: 30px;
+  width: 600px;
+  padding: 20px;
+  color: white;
+}
+.cumpleaños .btn {
+  border-radius: 1px;
+  width: 200px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ubicacion iframe {
+  margin: 70px 0px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.contacto h2 {
+  margin: 15px;
+}
+.contacto .red {
+  display: flex;
+  margin: 10px;
+}
+.contacto .red img {
+  width: 35px;
+  margin: 0px 10px;
+}
+
+.footerAncho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  padding: 50px 5px;
+  height: 70%;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.footerAncho .ubicacionFooter {
+  color: black;
+}
+.footerAncho .seccionFooter {
+  margin: 5px;
+}
+.footerAncho .seccionFooter ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.footerAncho .seccionFooter h4 {
+  padding: 3px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footerAncho .seccionFooter p {
+  width: 200px;
+  font-size: 17px;
+}
+.footerAncho .seccionFooter img {
+  width: 30px;
+  padding: 3px;
+}
+
+.footerCopyright {
+  padding: 7px 5px;
+  display: flex;
+  justify-content: start;
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .footerAncho {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
